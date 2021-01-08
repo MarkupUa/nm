@@ -102,9 +102,14 @@
       img {
         display: block;
         border-radius: 500rem;
+        // border: 2px solid #bdb76b;
         max-width: 180px;
         @media only screen and (max-width: 600px) {
           max-width: 124px;
+        }
+        
+        &:hover img {
+          border: 5px solid #9c81d2;
         }
       }
     }
